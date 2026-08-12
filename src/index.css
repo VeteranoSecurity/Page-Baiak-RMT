@@ -1,0 +1,59 @@
+:root {
+  /* Color Palette - Premium White & Gold */
+  --gold-primary: #f5d061;
+  --gold-light: #fff3c4;
+  --gold-metallic: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
+  --gold-gradient: linear-gradient(135deg, #f5d061 0%, #e5c158 50%, #c59b27 100%);
+  --gold-hover: #ffd700;
+  --gold-glow: rgba(245, 208, 97, 0.4);
+
+  --bg-dark: #07080b;
+  --panel-dark: #0d0f15;
+  --panel-card: #131620;
+  
+  --text-white: #ffffff;
+  --text-gold: #f5d061;
+  --text-muted: #a0a5b5;
+  --border-white: #ffffff;
+  --border-gold: rgba(245, 208, 97, 0.4);
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --font-royal: 'Cinzel', serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 1.15;
+}
