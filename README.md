@@ -49,7 +49,7 @@ npm run build
 
 O link do bot do Telegram pode ser alterado no arquivo `src/App.jsx`:
 ```javascript
-const TELEGRAM_BOT_URL = 'https://t.me/BaiakIdleBot';
+const TELEGRAM_BOT_URL = 'https://t.me/baiaknogrindbot';
 ```
 
 ---

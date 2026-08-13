@@ -1,6 +1,6 @@
 import './App.css';
 
-const TELEGRAM_BOT_URL = 'https://t.me/BaiakIdleBot';
+const TELEGRAM_BOT_URL = 'https://t.me/baiaknogrindbot';
 
 function App() {
   const handleBotRedirect = () => {
