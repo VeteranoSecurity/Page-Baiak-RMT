@@ -9,39 +9,29 @@ function App() {
 
   return (
     <div className="container">
-      {/* Left Panel: Content (Baiak Idle RMT Theme) */}
+      {/* Left Panel: Content (No Grind Bot Theme) */}
       <div className="content-panel">
 
         {/* Brand Logo Header */}
         <div className="brand-box" onClick={handleBotRedirect} style={{ cursor: 'pointer' }}>
           <i className="fa-solid fa-crown brand-logo-icon"></i>
-          <span className="brand-name">BAIAK IDLE RMT</span>
-          <span className="brand-tag">BOT 24/7</span>
+          <span className="brand-name">BOT DO NO GRIND</span>
+          <span className="brand-tag">COINS 24/7</span>
         </div>
 
         {/* Hero Copy and Action Section */}
         <div className="hero-info">
           <div className="hero-badge">
-            <i className="fa-solid fa-bolt"></i> Mercado Oficial de Itens & Gold
+            <i className="fa-solid fa-bolt"></i> Venda Oficial de Coins
           </div>
 
           <h1 className="hero-title">
-            Compre Gold & Itens do <span className="highlight-gold">Baiak Idle</span> Instantaneamente.
+            Compre <span className="highlight-gold">Coins</span>
           </h1>
 
           <p className="hero-desc">
-            O Bot do Baiak Idle é a solução definitiva para comprar Kks, Sets VIP, Armas Raras
-            e Consumíveis. Sistema 100% automatizado via Telegram, com pagamento por PIX e entrega
-            imediata direto no seu personagem.
+            O bot do No Grind é a solução definitiva pra comprar coins.
           </p>
-
-          {/* Feature Chips */}
-          <div className="feature-chips">
-            <div className="chip"><i className="fa-solid fa-coins"></i> Kks & Gold Bar</div>
-            <div className="chip"><i className="fa-solid fa-shield-halved"></i> Sets VIP & Raros</div>
-            <div className="chip"><i className="fa-solid fa-bolt-lightning"></i> Entrega PIX 24/7</div>
-            <div className="chip"><i className="fa-solid fa-lock"></i> Trade 100% Seguro</div>
-          </div>
 
           {/* CTA Primary Button */}
           <a
@@ -51,13 +41,13 @@ function App() {
             className="btn-primary"
           >
             <i className="fab fa-telegram-plane"></i>
-            Comprar no Bot Agora
+            Comprar Coins Agora
           </a>
 
           {/* How to Use Tutorial Card */}
           <div className="how-to-use">
             <h3 className="section-title">
-              <i className="fa-solid fa-circle-play"></i> Como Funciona o Vendedor
+              <i className="fa-solid fa-circle-play"></i> Como Funciona a Compra
             </h3>
 
             <div className="steps">
@@ -72,8 +62,8 @@ function App() {
               <div className="step-item">
                 <div className="step-number">2</div>
                 <div className="step-text">
-                  <h4>Escolha os Itens ou Kks</h4>
-                  <p>Navegue pelo menu interativo e selecione a quantidade de Gold ou os equipamentos desejados.</p>
+                  <h4>Escolha a Quantidade de Coins</h4>
+                  <p>Navegue pelo menu interativo e selecione a quantidade de Coins desejada.</p>
                 </div>
               </div>
 
@@ -81,7 +71,7 @@ function App() {
                 <div className="step-number">3</div>
                 <div className="step-text">
                   <h4>Pagamento PIX & Entrega Automática</h4>
-                  <p>Após pagar a chave PIX gerada na hora, os itens são enviados <strong>imediatamente para seu personagem</strong>.</p>
+                  <p>Após pagar a chave PIX gerada na hora, as Coins são enviadas <strong>imediatamente para seu personagem</strong>.</p>
                 </div>
               </div>
             </div>
@@ -90,14 +80,14 @@ function App() {
 
         {/* Footer Info */}
         <div className="footer-info">
-          <span>© 2026 Baiak Idle RMT. Todos os direitos reservados.</span>
+          <span>© 2026 No Grind Bot. Todos os direitos reservados.</span>
           <div className="footer-badge">
-            <i className="fa-solid fa-shield-cat"></i> Sistema Anti-Fraude Ativo
+            <i className="fa-solid fa-shield-cat"></i> Anti-Fraude Ativo
           </div>
         </div>
       </div>
 
-      {/* Right Panel: Visual Video Showcase */}
+      {/* Right Panel: Visual Video Showcase + Medals */}
       <div className="visual-panel">
         <video
           className="bg-video"
@@ -120,6 +110,49 @@ function App() {
             <i className="fab fa-telegram-plane"></i>
             Falar com Bot
           </a>
+        </div>
+
+        {/* Right Side Feature Medals / Badges */}
+        <div className="right-medals-container">
+          <div className="medal-card">
+            <div className="medal-icon-box">
+              <i className="fa-solid fa-coins"></i>
+            </div>
+            <div className="medal-text">
+              <span className="medal-title">Coins Instantâneos</span>
+              <span className="medal-desc">Entrega Direta no Personagem</span>
+            </div>
+          </div>
+
+          <div className="medal-card">
+            <div className="medal-icon-box">
+              <i className="fa-solid fa-bolt-lightning"></i>
+            </div>
+            <div className="medal-text">
+              <span className="medal-title">Entrega PIX 24/7</span>
+              <span className="medal-desc">Sistema Automatizado</span>
+            </div>
+          </div>
+
+          <div className="medal-card">
+            <div className="medal-icon-box">
+              <i className="fa-solid fa-shield-halved"></i>
+            </div>
+            <div className="medal-text">
+              <span className="medal-title">Trade 100% Seguro</span>
+              <span className="medal-desc">Garantia Total no Envio</span>
+            </div>
+          </div>
+
+          <div className="medal-card">
+            <div className="medal-icon-box">
+              <i className="fa-solid fa-robot"></i>
+            </div>
+            <div className="medal-text">
+              <span className="medal-title">Bot No Grind</span>
+              <span className="medal-desc">Solução Definitiva</span>
+            </div>
+          </div>
         </div>
       </div>
 
