@@ -1,4 +1,5 @@
 import './App.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const TELEGRAM_BOT_URL = 'https://t.me/baiaknogrindbot';
 
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <div className="container">
+      <Analytics />
       {/* Left Panel: Content (No Grind Bot Theme) */}
       <div className="content-panel">
 
