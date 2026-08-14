@@ -30,7 +30,8 @@ function App() {
           </h1>
 
           <p className="hero-desc">
-            O bot do No Grind é a solução definitiva pra comprar coins.
+            O Atendente de RMT do No Grind é a forma mais rápida e segura pra adquirir
+            Coins com entrega <strong>instantânea via PIX 24/7</strong> direto no seu personagem via Telegram.
           </p>
 
           {/* CTA Primary Button */}
@@ -80,7 +81,7 @@ function App() {
 
         {/* Footer Info */}
         <div className="footer-info">
-          <span>© 2026 No Grind Bot. Todos os direitos reservados.</span>
+          <span>© 2026 No Grind RMT. Todos os direitos reservados.</span>
           <div className="footer-badge">
             <i className="fa-solid fa-shield-cat"></i> Anti-Fraude Ativo
           </div>
